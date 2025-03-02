@@ -1,7 +1,7 @@
 ## Infraestructura
 
 # Sistemas desplegados:
-Localmente en Proxmox desplegado:
+Localmente en Proxmox VE 8.2.2 desplegado:
 - k8s controlplane - TALOS OS - VM
 - k8s worker0 - TALOS OS - VM
 - k8s worker1 - TALOS OS - VM
