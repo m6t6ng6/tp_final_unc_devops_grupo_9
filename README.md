@@ -20,7 +20,6 @@ Localmente en Proxmox VE 8.2.2 desplegado:
 - cd kube-prometheus
 
 ### Crear el namespace "monitoring" y los CRDs (Custom Resource Definition)
-### Create the namespace and CRDs, and then wait for them to be availble before creating the remaining resources
 - kubectl create -f manifests/setup
 - kubectl create -f manifests/
 
