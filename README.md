@@ -1,10 +1,17 @@
 ## Infraestructura
-En Proxmox desplegado:
+
+# Sistemas desplegados:
+Localmente en Proxmox desplegado:
 - k8s controlplane - TALOS OS - VM
 - k8s worker0 - TALOS OS - VM
 - k8s worker1 - TALOS OS - VM
 - k8s worker2 - TALOS OS - VM
 - talosctl - kubectl command line, Debian 12 - VM
+
+# Detalles de HW:
+16 x AMD Ryzen 9 6900HX with Radeon Graphics (1 Socket)
+64 Gb DDR5 
+1 Tb SSD
 
 ## Configuración
 
