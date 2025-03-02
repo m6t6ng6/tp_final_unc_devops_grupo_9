@@ -9,9 +9,9 @@ Localmente en Proxmox desplegado:
 - talosctl - kubectl command line, Debian 12 - VM
 
 # Detalles de HW:
-16 x AMD Ryzen 9 6900HX with Radeon Graphics (1 Socket)
-64 Gb DDR5 
-1 Tb SSD
+- 16 x AMD Ryzen 9 6900HX with Radeon Graphics (1 Socket)
+- 64 Gb DDR5 
+- 1 Tb SSD
 
 ## Configuración
 
