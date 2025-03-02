@@ -1,9 +1,9 @@
 ## Infraestructura
 En Proxmox desplegado:
-- controlplane - TALOS OS - VM
-- worker0 - TALOS OS - VM
-- worker1 - TALOS OS - VM
-- worker2 - TALOS OS - VM
+- k8s controlplane - TALOS OS - VM
+- k8s worker0 - TALOS OS - VM
+- k8s worker1 - TALOS OS - VM
+- k8s worker2 - TALOS OS - VM
 - talosctl - kubectl command line, Debian 12 - VM
 
 ## Configuración
