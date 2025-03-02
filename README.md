@@ -45,7 +45,7 @@ kubectl --namespace monitoring port-forward svc/alertmanager-main 9093
 ### Hacer SSH tunneling hacia el sistema desde otro host hacia el talosctl
 ssh -L 0.0.0.0:3000:localhost:3000 root@talosctl.matanga.it
 
-### Configurar portforwarding en el router local donde se encuentre el NGINX
+### Configurar portforwarding en el router local para que apunte al equipo en el que se encuentre el NGINX
 
 ### Configurar el NGINX para que forwardee hacia el equipo que tiene el SSH tunneling
 
