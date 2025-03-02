@@ -42,8 +42,13 @@ kubectl --namespace monitoring port-forward svc/alertmanager-main 9093
 
 ## Acceso desde Internet
 
-### Para acceder desde Internet, hacer SSH tunneling hacia el sistema desde otro host
+### Hacer SSH tunneling hacia el sistema desde otro host hacia el talosctl
 ssh -L 0.0.0.0:3000:localhost:3000 root@talosctl.matanga.it
 
-### Configurar portforwarding en el router donde se encuentre el NGINX
+### Configurar portforwarding en el router local donde se encuentre el NGINX
+
 ### Configurar el NGINX para que forwardee hacia el equipo que tiene el SSH tunneling
+
+### Configurar el DDNS en el router local
+
+### Configurar CloudFlare con el CNAME adecuado para apuntar el DDNS
