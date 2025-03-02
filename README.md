@@ -1,3 +1,11 @@
+## Infraestructura
+En Proxmox desplegado:
+- controlplane - TALOS OS - VM
+- worker0 - TALOS OS - VM
+- worker1 - TALOS OS - VM
+- worker2 - TALOS OS - VM
+- talosctl - kubectl command line, Debian 12 - VM
+
 ## Configuración
 
 ### Clonar el repositorio de K8s Operators de Prometheus, Grafana y AlertManager
