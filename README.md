@@ -36,14 +36,14 @@ Localmente en Proxmox VE 8.2.2 desplegado:
 - kubectl --namespace monitoring port-forward svc/grafana 3000
 
 ### Forwardear los puertos de AlertManager para acceder al dashboard via web
-kubectl --namespace monitoring port-forward svc/alertmanager-main 9093
+- kubectl --namespace monitoring port-forward svc/alertmanager-main 9093
 
 =============
 
 ## Acceso desde Internet
 
 ### Hacer SSH tunneling hacia el sistema desde otro host hacia el talosctl
-ssh -L 0.0.0.0:3000:localhost:3000 root@talosctl.matanga.it
+- ssh -L 0.0.0.0:3000:localhost:3000 root@talosctl.matanga.it
 
 ### Configurar portforwarding en el router local para que apunte al equipo en el que se encuentre el NGINX
 
